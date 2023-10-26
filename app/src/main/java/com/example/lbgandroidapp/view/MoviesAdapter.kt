@@ -1,9 +1,11 @@
-package com.example.lbgandroidapp
+package com.example.lbgandroidapp.view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.lbgandroidapp.data.model.MovieModel
+import com.example.lbgandroidapp.R
 import com.example.lbgandroidapp.databinding.ListItemMovieBinding
 
 class MoviesAdapter(private val movies: ArrayList<MovieModel>): RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
